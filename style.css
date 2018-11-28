@@ -61,6 +61,7 @@ div img {
 
 }
 .hamburger_icona {
+  display: none;
   width: 45px;
   height: 48px;
   padding: 10px;
@@ -98,7 +99,19 @@ div img {
   .right {
     display: none;
   }
+  .hamburger_icona {
+    display: inline-block;
+    width: 45px;
+    height: 48px;
+    padding: 10px;
+    margin: 10px;
+    border: 5px solid white;
+    border-radius: 10px;
+
+  }
 }
+
+
 
 .burger_menu.active {
   display: block;
