@@ -70,12 +70,12 @@ div img {
 
 }
 
-.burger_menu_active {
+.burger_menu {
   display: none;
   width: 40%;
-  height: 50%;
+  height: 60%;
   position: absolute;
-  top: 10px;
+  top: 120px;
   right: 0;
   padding: 15px;
   background: #1F201F;
@@ -83,10 +83,14 @@ div img {
   border-radius: 10px;
   font-size: 25px;
 }
-.burger_menu_active li {
+.burger_menu li {
 
   padding: 5px;
 
+}
+.burger_menu div {
+  position: absolute;
+  right: 25px;
 }
 
 @media screen and (max-width: 800px)
@@ -94,4 +98,8 @@ div img {
   .right {
     display: none;
   }
+}
+
+.burger_menu.active {
+  display: block;
 }
