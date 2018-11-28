@@ -8,8 +8,11 @@ box-sizing: border-box;
 .list_style a {
   text-decoration: none;
 }
+body a {
+  color: #32D27C;
+}
 .container div {
-  color: #0FBF5B;
+  color: #570FBF;
 }
 .container {
   width: 100vw;
@@ -18,7 +21,7 @@ box-sizing: border-box;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  background: #1F201F;
+  background: #416888;
 }
 div img {
   width: 100px;
